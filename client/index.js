@@ -14,7 +14,7 @@ export default class Client {
   /**
    * Load all the different windows/UI portions on the index page
    * relevant for use in the game, set the zoom factor, update the
-   * orientation and then load the login screen
+   * orientation and then load the login screen.
    */
   constructor() {
     log.debug('Client - constructor()', this);
